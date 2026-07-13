@@ -19,7 +19,7 @@ class Token
             this->lexeme = lexeme;
             this->line = line;
         }
-        std::string toString()
+        std::string toString() const
         {
              return tokenTypeToString(type)
              + " "
